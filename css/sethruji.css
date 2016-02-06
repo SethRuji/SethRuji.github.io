@@ -1,0 +1,34 @@
+/*@import url("navMenu.css");*/
+body { padding-top: 70px; }
+body{
+  margin: 0;  
+  font-size: 15px;
+}
+
+nav{
+  background-color: #333;
+  margin:0;
+  overflow: hidden;
+}
+/*nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}*/
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+/* Create a style for the first level items */
+nav > ul > li > a {
+    color: #aaa;
+    background-color:#3F3F3F;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+  }
+
+  nav li {
+      display: inline;
+      float: left;
+  }

@@ -1,7 +1,7 @@
 .svg-wrapper {
-  text-align: center;  
+  text-align: center;
   background: rgb(20,20,20);
-  width: 100%;  
+  /*width: 100%;*/
 }
 .shape {
   stroke-dasharray: 140 540;
